@@ -1,0 +1,107 @@
+body {
+  background-image: url('https://www.inteli.edu.br/wp-content/uploads/2022/08/24113818/cie-comp.jpg');
+  height: 100vh;
+  background-size: cover;
+  font-family: Arial;
+  color: white;
+}
+
+#fade .spinner-border {
+  width: 60px;
+  height: 60px;
+}
+
+.hide {
+  display: none !important;
+}
+
+#message {
+  width: 40%;
+}
+
+.alert.alert-light p {
+  border-bottom: 1px solid #333;
+  padding: 1.2em 0;
+}
+
+#order-form-container {
+  padding: 1.5em;
+}
+
+#steps {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #20235b;
+  position: relative;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.step i {
+  background-color: #494a7d;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 1.2em;
+  margin-bottom: 0.3em;
+}
+
+.step .active {
+  background-color: #25cc88;
+}
+
+.step p {
+  color: #8789af;
+}
+
+.line {
+  border-bottom: 1px solid #20235b;
+  position: absolute;
+  top: 22.5px;
+  width: 90%;
+  left: 5%;
+  z-index: -1;
+}
+
+#form-header h2 {
+  color: black;
+}
+
+#order-form-container {
+  max-width: 700px;
+}
+
+#order-form-container input,
+#order-form-container select {
+  background-color: #20235b;
+  color: white;
+}
+
+#order-form-container select {
+  padding: 1rem 0.75rem;
+}
+
+#order-form-container label {
+  color: #8789af;
+}
+
+#order-form-container input:disabled,
+#order-form-container select:disabled {
+  background-color: #494a7d;
+  color: #8789af;
+}
+
+#order-form-container input:focus {
+  border-color: #25cc88;
+}
+
+#order-form-container .form-floating>label {
+  left: 1em;
+}
